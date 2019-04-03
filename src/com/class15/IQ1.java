@@ -22,6 +22,10 @@ public static void main(String[] args) {
 	str2=str1.substring(0, 5);//Hello
 	str1=str1.substring(5);
 	
+	
+	str1=str1+str2;//HelloWorld-->10
+	str2=str1.substring(0, str1.length()-str2.length());//Hello
+	str1=str1.substring(str2.length());
 	str1=str1+str2;
     str2=str1.replaceAll(str2,"");
     str1=str1.replaceAll(str2, "");

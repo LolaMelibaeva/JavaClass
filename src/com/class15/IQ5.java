@@ -17,7 +17,7 @@ public class IQ5 {
 					System.out.print(words[i]+" ");
 					
 				String str="It is a wonderful world";
-							String[] array1=str.split(" ");
+				String[] array1=str.split(" ");
 							        for(int a=array1.length-1;a>=0;a--) {
 							            
 							        System.out.print(array1[a]+" ");
