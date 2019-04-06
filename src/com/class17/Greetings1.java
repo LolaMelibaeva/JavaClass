@@ -5,14 +5,14 @@ public class Greetings1 {
 	public static void main(String[] args) {
 		
 		Greetings1 obj=new Greetings1();
-		obj.askHowAreYou("Omer");
+		obj.askHowAreYou("Omer");//argument
 	}
 	
-	void askHowAreYou(String name) {
+	void askHowAreYou(String name) {//void is a return type, askHowAreYou - method name
 		System.out.println("How are you "+name);
 	}
 	
-	void askHowAreYou1(String name) {
+	void askHowAreYou1(String name) {//parameter
 		System.out.println("How are you "+name);
 	}
 	void askHowAreYou2(String name) {
@@ -24,4 +24,4 @@ public class Greetings1 {
 
 }
 
-}
+

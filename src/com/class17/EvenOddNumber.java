@@ -1,19 +1,33 @@
 package com.class17;
 
+import java.util.Scanner;
+
 public class EvenOddNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		EvenOddNumber num=new EvenOddNumber();
-		num.evenOdd(5);
-	}
+		 Scanner console = new Scanner(System.in);
+	        int num;
+	        
+	        System.out.print("Enter an integer: ");
+	        num = console.nextInt();
+	                
+	        if(isEven(num))
+	        {
+	            System.out.println("Number is even");
+	        }
+	        else
+	        {
+	            System.out.println("Number is odd");
+	        }    
+	    }
+
 	
-	void evenOdd (int a) {
+	public static boolean isEven (int a) {
 		if (a%2==0) {
-			System.out.println(a+ " is even number");
+			return true;
 		}else {
-			System.out.println(a+ " is odd number");
+			return false;
 		}
 		
 	}
