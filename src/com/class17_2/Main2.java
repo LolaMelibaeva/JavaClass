@@ -1,22 +1,15 @@
 package com.class17_2;
 
 public class Main2 {
-	public static String mixString (String s1, String s2)
-	{
-	String res="";
-		for (int i=0; i<s1.length(); i++) {
+	
+		 public static char getChar(String word, int index) {
+		char ch=word.charAt(index);
+		 return ch;
+		 
+			}
 			
-			res=res+s1.charAt(i)+s2.charAt(i);
-	       
-			 
+			//test case below (dont change):
+			public static void main(String[] args){
+				System.out.println(getChar("hello",1)); //should be 'e'
+			}
 		}
-	  return res;
-}
-
-
-	//test case below (dont change):
-	public static void main(String[] args){
-		System.out.println(mixString("12345","abcde")); //should be 1a2b3c4d5e
-		System.out.println(mixString("howdy","hello")); //should be hhoewldlyo
-	}
-}
