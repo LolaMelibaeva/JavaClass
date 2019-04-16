@@ -2,7 +2,7 @@ package com.class17;
 
 import java.util.Scanner;
 
-import com.class17_2.Application;
+import com.class18.Application;
 
 public class Calculator extends Application {
 

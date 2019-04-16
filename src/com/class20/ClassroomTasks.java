@@ -15,11 +15,13 @@ public class ClassroomTasks {
 	
 	
 	
-	String [] array=obj.stringToArray("Hello Students");
+	
+	String [] array=obj.stringToArray("Hello everyone Students");
 	for (String ar: array) {
 		System.out.println(ar);
 	}
 	
+	obj.sayHello();
 }
 
 	protected String isReversed (String word) {
@@ -49,6 +51,9 @@ public class ClassroomTasks {
 		
 			return str;
 		}
+	void sayHello () {
+		System.out.println("Hello Students");
+	}
 	}
 	
 	
