@@ -5,4 +5,4 @@
  * @author Lola Melibaeva
  *
  */
-package inheritance;
+package com.class24_2_2;
