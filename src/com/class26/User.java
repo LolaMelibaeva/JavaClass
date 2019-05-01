@@ -27,7 +27,7 @@ class UserInfo extends User {
 class TestUser{
 	public static void main(String[] args) {
 		
-		UserInfo obj=new UserInfo("John Smith", "202 456 1569","71 Main Street, Vienna, VA");
+		UserInfo obj=new UserInfo("John Smith", "202-456-1569","71 Main Street, Vienna, VA");
 		obj.userDetails();
 	}
 }
