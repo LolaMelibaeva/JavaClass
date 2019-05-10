@@ -43,9 +43,7 @@ public class AllKeysAndValueFromMap {
 		System.out.print(itValues.next()+", ");
 	}
 	
-	for (Object obj: map) {
-		System.out.println();
-	}
+	
 }
 }
 
